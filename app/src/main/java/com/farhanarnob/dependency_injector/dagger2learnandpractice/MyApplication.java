@@ -18,6 +18,10 @@ public class MyApplication extends Application {
         return mMyComponent;
     }
 
+    void setMyComponent(MyComponent myComponent) {
+        mMyComponent = myComponent;
+    }
+
     private MyComponent createMyComponent() {
         return DaggerMyComponent
                 .builder()

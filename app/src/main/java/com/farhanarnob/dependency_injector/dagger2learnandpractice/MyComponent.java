@@ -10,7 +10,7 @@ import dagger.Provides;
  */
 @Singleton
 @Component(modules = MyModule.class)
-interface MyComponent {
+public interface MyComponent {
 
     void inject(MainActivity mainActivity);
 }
